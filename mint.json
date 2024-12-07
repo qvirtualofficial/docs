@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "QVirtual Documentation",
+  "backgroundImage": "/background.jpg",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -8,22 +9,30 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#C00000",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "light": "#C00000",
+    "dark": "#C00000",
+    "background": {
+      "light": "#F4F5F8",
+        "dark": "#09090b"
+    },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#C00000",
+      "to": "#272727"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@qvirtual.com.au"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Crew Centre",
+    "url": "https://crew.qvirtual.com.au"
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true
   },
   "tabs": [
     {
@@ -84,8 +93,10 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "discord": "https://discord.qvirtual.com.au",
+    "instagram": "https://instagram.com/qvirtualofficial",
+    "facebook": "https://facebook.com/qvirtualofficial",
+    "github": "https://github.com/qvirtualofficial/docs",
+    "website": "https://qvirtual.com.au"
   }
 }
